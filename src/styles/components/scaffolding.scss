@@ -1,0 +1,189 @@
+body,
+html {
+  padding: 0;
+  margin: 0
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: $font-family;
+  font-size: $body-font-size;
+  color: $font-color;
+}
+
+ol,
+p,
+ul {
+  line-height: $line-height;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #eaecef
+}
+
+table {
+  border-collapse: collapse;
+  margin: 1rem 0;
+  display: block;
+  overflow-x: auto
+}
+
+tr {
+  border-top: 1px solid #dfe2e5
+}
+
+tr:nth-child(2n) {
+  background-color: #f6f8fa
+}
+
+td,
+th {
+  border: 1px solid #dfe2e5;
+  padding: .6em 1em
+}
+
+.h1 {
+  font-size: 26px !important
+}
+
+@media (min-width:768px) {
+  .h1 {
+    font-size: 32px !important
+  }
+}
+
+.h2 {
+  font-size: 22px !important
+}
+
+@media (min-width:768px) {
+  .h2 {
+    font-size: 24px !important
+  }
+}
+
+.h3 {
+  font-size: 18px !important
+}
+
+@media (min-width:768px) {
+  .h3 {
+    font-size: 20px !important
+  }
+}
+
+.h4 {
+  font-size: 16px !important
+}
+
+.h5 {
+  font-size: 14px !important
+}
+
+.h6 {
+  font-size: 12px !important
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-weight: 600 !important
+}
+
+a {
+  font-weight: 500;
+  color: #0366d6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active,
+a:hover {
+  outline: none;
+}
+
+button {
+  color: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+a,
+p a code {
+  color: #3eaf7c;
+}
+
+p a code {
+  font-weight: 400
+}
+
+kbd {
+  background: #eee;
+  border: .15rem solid #ddd;
+  border-bottom: .25rem solid #ddd;
+  border-radius: .15rem;
+  padding: 0 .15em
+}
+
+blockquote {
+  font-size: 1.2rem;
+  color: #999;
+  border-left: .25rem solid #dfe2e5;
+  margin-left: 0;
+  padding-left: 1rem
+}
+
+ol,
+ul {
+  padding-left: 1.2em
+}
+
+strong {
+  font-weight: 600
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  line-height: 1.25
+}
+
+h1:hover .header-anchor,
+h2:hover .header-anchor,
+h3:hover .header-anchor,
+h4:hover .header-anchor,
+h5:hover .header-anchor,
+h6:hover .header-anchor {
+  opacity: 1
+}
+
+h1 {
+  font-size: 2.2rem
+}
+
+h2 {
+  font-size: 1.65rem;
+  padding-bottom: .3rem;
+  border-bottom: 1px solid #eaecef
+}
+
+h3 {
+  font-size: 1.35rem
+}

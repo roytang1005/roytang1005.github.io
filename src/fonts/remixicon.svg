@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg">
+<defs>
+    <font id="remixicon" horiz-adv-x="1200">
+    <font-face font-family="remixicon"
+        units-per-em="1200" ascent="1200"
+        descent="0" />
+    <missing-glyph horiz-adv-x="0" /><glyph glyph-name="sun-line"
+            unicode="&#xF00C;"
+            horiz-adv-x="1200" d="M600 300A300 300 0 1 0 600 900A300 300 0 0 0 600 300zM600 400A200 200 0 1 1 600 800A200 200 0 0 1 600 400zM550 1150H650V1000H550V1150zM550 200H650V50H550V200zM175.75 953.55L246.45 1024.25L352.5 918.2L281.8 847.5L175.75 953.5zM847.5 281.8L918.2 352.5L1024.25 246.4500000000001L953.55 175.75L847.5 281.8zM953.55 1024.3L1024.25 953.55L918.2 847.5L847.5 918.2L953.55 1024.25zM281.8 352.5L352.5 281.8L246.45 175.75L175.75 246.4500000000001L281.8000000000001 352.5zM1150 650V550H1000V650H1150zM200 650V550H50V650H200z" /><glyph glyph-name="moon-fill"
+            unicode="&#xEE30;"
+            horiz-adv-x="1200" d="M569 1099.05A375 375 0 1 1 1099 569.05C1083.1 307.3000000000001 865.8 100 600.05 100C323.85 100 100 323.85 100 600C100 865.75 307.3 1083.05 569 1099.05z" /></font></defs></svg>
